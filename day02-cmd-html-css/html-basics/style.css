@@ -1,0 +1,39 @@
+html {
+  
+    font-family: 'Maiden Orange', cursive;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: bold;
+    line-height: 1.5em;
+    font-variant: small-caps;
+}
+
+nav > a {
+    color :crimson;
+}
+
+nav div a {
+    color: papayawhip;
+}
+
+.thin.small {
+    font-size: 10px;
+    color:seagreen
+//connecting the classes, both classes will be affected//
+}
+
+.strong {
+    color: darkorange
+}
+
+p a:hover {
+    text-decoration: none; 
+}
+
+a:hover  {
+    text-decoration: underline;
+}
+
+nav a[href="#"] {
+
+}
