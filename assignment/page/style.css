@@ -1,0 +1,42 @@
+article {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+html {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.4em;
+  text-align: justify;
+  letter-spacing: 0.1em;
+}
+section {
+  padding: 0.5rem 2rem;
+}
+
+h1 {
+  font-size: 22px;
+  color: darkblue;
+  text-align: center;
+}
+h2 {
+  font-size: 16px;
+  color: navy;
+}
+.intro {
+  background-color: #778899;
+  background-color: #add8e6;
+}
+em {
+  background-color: #add8e6;
+  font-style: normal;
+  font-weight: 
+}
+
+.conclusion {
+  background-color: #add8e6;
+  
+}
+
+a {
+  color: lightslategrey;
+}
