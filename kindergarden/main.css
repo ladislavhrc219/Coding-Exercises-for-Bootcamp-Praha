@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    font-family: roboto; 
+}
+
+
+.navbar ul li {
+    display: inline;
+    list-style: none;
+}
+.navbar ul {
+    text-align: center;
+    word-spacing: 2em;
+    background-color: #ffffff;
+    padding: 15px;
+}
+.header h1 {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    
+}
+
+.whitebar {
+   text-decoration: underline;
+   color: white;
+}
+
+.header  {
+    background-image: url(img/banner.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover; 
+}
+
+.yellow {
+    color: #ffe964;
+}
+.blue {
+    color: blue;
+}
+.red {
+    color: red;
+}
+
+.mission {
+    background-color: #ffe964;
+    height: 30vh;
+    text-align: center;
+    padding-top: 60px;
+    
+}
+.aboutus {
+    background-color: white;
+    text-align: left;
+    height: 30vh;
+    padding: 10px;
+}
+.aboutus h2 {
+    text-align: left;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.team h2 {
+    color: white;
+    text-align: left;
+}
+.team  {
+    background-color: #ff523d;
+    
+}
+.team p{
+    text-align: center;
+    color:white;
+}
+
+.contacts {
+    background-color: #223c88;
+    color: white;
+    padding-left: 30px;
+
+}
+
+
+.container {
+    
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
