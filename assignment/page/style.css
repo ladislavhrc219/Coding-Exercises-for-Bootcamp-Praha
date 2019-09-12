@@ -9,6 +9,44 @@ html {
   text-align: justify;
   letter-spacing: 0.1em;
 }
+
+.banner {
+  background-image: url(car.jpg);
+  background-size: contain;
+  background-position: center; 
+  height:300px;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.thingy {
+  width: 5rem;
+  height: 5rem;
+  background-color: darkmagenta;
+  position: absolute;
+  left: 25rem;
+  top: 28rem; 
+}
+.container {
+  height: 10rem;
+  border: 2px solid black;
+  position: relative;
+
+}
+
+.mybox {
+  background-color: sandybrown;
+  border: 2.5 rem;
+  padding: 2rem;
+  margin: 1rem;
+
+  width: 50vw;
+  min-height: 50vw;
+  padding: 1px; ==> goint o move the text out of the box if its close to the edge of the box;
+
+}
+
 section {
   padding: 0.5rem 2rem;
 }
