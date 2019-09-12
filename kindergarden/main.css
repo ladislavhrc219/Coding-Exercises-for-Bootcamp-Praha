@@ -16,10 +16,11 @@
 }
 .header h1 {
     position: absolute;
-    left: 60px;
-    top: 60px;
+    left: 90px;
+    top: 90px;
     
 }
+
 
 .whitebar {
    text-decoration: underline;
@@ -50,43 +51,68 @@
     padding-top: 60px;
     
 }
+.mission p {
+    padding-left: 90px;
+    padding-right: 90px;
+}
 .aboutus {
     background-color: white;
     text-align: left;
     height: 30vh;
     padding: 10px;
+    padding-right: 90px;
 }
 .aboutus h2 {
     text-align: left;
     padding-bottom: 25px;
     padding-top: 25px;
+    padding-left: 90px;
 }
-
+.aboutus p {
+    padding-left: 90px;
+}
 .team h2 {
     color: white;
     text-align: left;
 }
 .team  {
     background-color: #ff523d;
-    
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .team p{
     text-align: center;
     color:white;
 }
-
+.team h2 {
+    padding-left: 90px;
+}
 .contacts {
     background-color: #223c88;
     color: white;
-    padding-left: 30px;
+    padding-left: 90px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 }
-
+.contacts h2 {
+    padding: 
+}
+.members {
+    text-align: center;
+}
+.members img {
+    padding:30px;
+    width: 60px;
+    
+}
 
 .container {
     
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
+
+
 
 
