@@ -1,0 +1,18 @@
+$red: crimson;
+
+@import "variables/colors.css";
+@import "common/navigation.css";
+
+
+
+body {
+    color: $red;
+}
+
+
+
+h1 {
+    color: $red;
+    border: 1px solid $red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
