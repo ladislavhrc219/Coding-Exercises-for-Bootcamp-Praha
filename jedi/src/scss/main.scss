@@ -1,0 +1,170 @@
+@import "variables/var.scss";
+
+body {
+    color: black;
+    
+}
+
+.gallery {
+    background-image: url('../img/gallery.jpg');
+    background-color: yellow;
+    height: 60vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+        
+    nav li {
+    flex-direction: column;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    }
+    
+}
+
+
+.plot {
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+    .plot2 { 
+        display: flex;
+        
+        color: black;
+        .poster {
+            width: 10vw;
+            height: 10vh;
+        }
+        .plot22 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+}
+
+
+.welcome {
+    background-image: url("../img/welcome.jpg");
+    height: 50vh;
+    width: 100vw;
+    color: snow;
+}
+
+
+.characters {
+    background-image: url("/img/rey-standing.jpg");
+    height: 100vh;
+}
+
+
+// cat section with images 
+section.cast {
+    position: relative;
+    .image {
+        position: relative;
+        border: 1px solid;
+
+        > div {
+            position: absolute;
+            top:0;
+            left:0;
+            background-color: rgba($color: #be0b0bb9, $alpha: 1.0);
+            text-align: center;
+            padding: 
+        }
+
+
+
+    }
+}
+
+// media quaties only test
+
+@media screen nav (max-width:840px) {
+    
+    nav { font-size: 0.5em;
+    }
+} 
+
+@media screen nav (max-width:440px) {
+    
+    nav { font-size: 0.3em;
+    }
+} 
+
+@media (max-width:320px) {
+    
+    nav { font-size: 0.5em;
+        flex-direction: column;
+    }
+} 
+
+
+
+// in scss
+header  {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width:800px) {
+        flex-direction: row;
+    }
+    @media (min-width:1200px) {
+        flex-direction: column;
+    }
+
+}
+
+
+
+// 
+
+
+h1 {
+    font-size: 2em;
+}
+ 
+header {
+    display: flex;
+    flex-direction: column;
+}
+ 
+/* much code ... */
+ 
+@media (min-width: 800px) {
+    h1 {
+        font-size: 2.5em;
+    }
+ 
+    header {
+        flex-direction: row;
+    }
+ 
+    /* much more code */
+}
+ 
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 3em;
+        font-weight: 200;
+    }
+ 
+    header {
+        justify-content: center;
+    }
+ 
+    /* mucho code */
+}
