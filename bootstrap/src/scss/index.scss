@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("../img/coffee-photo.jpg"); 
+    color: snow;
+    justify-content: flex-start;
+
+    @media (max-width: 774px) {
+        background-position: -200px center;
+    }
+
+    @media (max-width: 591px) {
+        background-position: -200px center;
+    }
+    @media (max-width: 450px) {
+        flex-direction: column;
+        background-size: auto 120vh;
+        background-attachment: fixed;
+    }
+}
+.main {
+    display: flex;
+    padding: 2em;
+    flex-basis: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    h1, p {
+        text-align: center;
+    }
+    button{
+        background-color: red;
+        border: white;
+        font-size: 2em;
+        border-radius: 0.5em;
+        white-space: nowrap;
+    }
+}
+
+
+.container {
+    height: 100vh;
+    width: 40vw;
+    text-align: center;
+    background-color: rgba(241, 100, 19, 0.12);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 10rem;
+}
+.container h1, p {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin: 2rem;
+}
+.redbtn {
+    background-color: red;
+    width:15rem;
+    height: 5rem;
+    border-radius: 10%;
+}
