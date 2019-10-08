@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+}
+
+
+
+.chat div {
+    background-color: palevioletred;
+    margin: 5px;
+
+    /* height: 20px;; */
+    /* height: 50vh; */
+    /* width: 100vw; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+
+}
+.unicorn{
+    background-color: blue;
+}
+
+.uniCorn{
+    background-image: url("./img/unicorn.png");
+    background-color: coral;
+    height: 10px;
+}
+
+.bot {
+    background-image: url("./img/cleverbot.png");
+   background-color: olive;
+}

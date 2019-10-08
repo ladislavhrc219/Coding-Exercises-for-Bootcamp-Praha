@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.snail-racer {
+  width: 160px;
+  background-color: yellow;
+}
+
+.snail {
+  width: 80%;
+  height: auto;
+}
+
+.snail__body {
+  fill: #b36002;
+}
+
+.snail__shell {
+  fill: rgb(76, 0, 255);
+}
+
+.snail-racer__name {
+  font-weight: bold;
+  text-align: center;
+  font-size: 120%;
+}
+.snail__body2 {
+  fill: pink;
+}
+.snail__body3 {
+  fill: magenta;
+}
+
+
+
+
+.snail__body4{
+  fill: crimson;
+}
+
+/* .snail2 {
+  
+} */

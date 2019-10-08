@@ -1,0 +1,42 @@
+
+html {
+    padding: 10px;
+    margin: 30px;
+
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: coral;
+    /* min-height: 100vh; */
+    /* display: flex; */
+    margin: 0;
+}
+
+.newphonelist{
+    color: wheat;
+    background-color: crimson;
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    padding: 5px;
+}
+
+
+/* .phonelist span {
+    display: inline;
+    justify-content: space-between;
+} */
+.phonelist {
+   
+    display: flexbox;
+    background-color: lightseagreen;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1rem;
+}
+/* .phonelist {
+    display: flex;
+} */
+

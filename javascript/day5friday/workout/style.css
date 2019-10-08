@@ -1,0 +1,26 @@
+body{
+    background-color: lightcoral;
+}
+/* 
+.container {
+    display: inline;
+    
+} */
+
+.hidden { 
+    opacity:0;
+}
+
+.padlock {
+    display: flex;
+}
+
+/* div { 
+    background-image: url('/padlock.png');
+
+    height: 50vh;
+} */
+
+.paragraph {
+    display: none;
+}
